@@ -20,6 +20,8 @@
 #a{
     background-color: black;
     grid-area: h;
+    white-space: nowrap;
+    
 }
 #b{
     background-color: #212121;
@@ -39,6 +41,9 @@
     background: #282828;
     
 }
+/* #home-btn a:link{
+    color: green;
+} */
 
 .side-nav-bar{
     padding-left: 45px;
@@ -50,7 +55,7 @@
     color: white;
     display: flex;
     flex-direction: column;
-    position: fixed;
+    position: sticky;
 }
 .spotify-logo img{
     width: 269.58px;
@@ -60,6 +65,7 @@
 }
 .install-app{
     margin-top: 35px;
+    position: sticky;
 }
 .left{
     margin-block: 20px;
@@ -81,7 +87,7 @@ img{
     
 }
 a:hover{
-    color: lightgreen;
+    color: green;
 }
 
 a{
@@ -91,6 +97,9 @@ a{
 
 .flex{
     display: flex;
+}
+.main-container{
+    position: sticky;
 }
 
 .top-bar{
@@ -121,11 +130,11 @@ a{
 }
 .title-playlist{
     margin-left: 50px;
-    width: 80%;
+    width: 90%;
 }
 h2{
     color: white;
-    margin-block: 30px;
+    margin-top: 25px;
     font-size: 50px;
 }
 .card-1{
@@ -143,12 +152,81 @@ h2{
     /* justify-content: space-evenly; */
     flex-wrap: wrap;
 }
+
+.title-playlist-2{
+    margin-left: 50px;
+    width: 80%;
+    /* height: 900px; */
+    /* background-color: gray; */
+     overflow: auto; 
+}
+::-webkit-scrollbar{
+    display: none;
+}
+#heading{
+    display: flex;
+    margin-inline: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+#heading>a{
+    font-size: 20px;
+    color: #B3B3B3;
+
+    /* right: 50px; */
+}
 .card-2{
     color: white;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     align-items: center;
-    background-color: red;
+    background-color: #181818;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.list-2{
+    width: 240px;
+    /* display: inline-block; */
+    display: flex;
+    
+}
+
+.card-2-img{
+    padding-left: 20px;
+    padding-block: 17px;
+    width: 208px;
+    height: 208px;
+}
+.title-playlist .list-1 .card-1:hover{
+    background-color: black;
+}
+
+.title-playlist-2 .list-2 .card-2:hover{
+    background-color: #282828;
+}
+
+.music-player-option{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+h4 , h3{
+    color: white;
+}
+.artist-title-section{
+    display: flex;
+    align-items: center;
+}
+.right-options{
+    display: flex;
+    align-items: center;
+}
+.right-options button{
+    background-color: #181818;
+    border-style: none;
 }
 
 
