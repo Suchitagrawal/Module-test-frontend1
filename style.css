@@ -36,6 +36,8 @@
     position: sticky;
     top: 0;
     right: 0;
+    bottom: 90%;
+    left: 20%;
     flex-wrap: wrap;
     /* overflow: scroll; */
     /* left: 20%; */
@@ -49,6 +51,7 @@
      top: 1%; 
      bottom:1%; */
      flex-wrap: wrap;
+     padding-inline: 50px;
     
 }
 #d{
@@ -59,15 +62,17 @@
     left:0;
     right: 0;
     top: 90%;
+    padding-bottom: 90px;
     /* flex-wrap: wrap; */
+    /* overflow-x: auto; */
 }
 
-/* #home-btn{
+.side-nav-bar .left-top-left ul li .home-btn{
     border-radius: 6px;
     background: #282828;
     width: 85%;
     padding: 20px;
-} */
+} 
 /* #home-btn a:link{
     color: green;
 } */
