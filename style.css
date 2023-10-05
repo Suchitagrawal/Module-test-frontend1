@@ -26,6 +26,7 @@
     top: 0;
     bottom: 0;
     right: 80%; 
+    overflow: scroll;
     /* flex-wrap: wrap; */
     
 }
@@ -36,6 +37,7 @@
     top: 0;
     right: 0;
     flex-wrap: wrap;
+    /* overflow: scroll; */
     /* left: 20%; */
 }
 #c{
